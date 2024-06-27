@@ -1,24 +1,29 @@
 .carteirinha {
-    max-width: 350px;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
   
   .carteirinha h2 {
+    margin-top: 0px;
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+    margin-bottom: 60px;
+    color: #243F6D;
+    border-bottom: 1px solid #d4cfcf;
+    width: 100%;
+    padding-bottom: 10px;
   }
   
   .carteirinha-secao {
     margin-bottom: 20px;
   }
-  
   .carteirinha-secao h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -26,7 +31,15 @@
     border-bottom: 1px solid #eee;
     padding-bottom: 5px;
   }
-  
+  .secao1 {
+    border-right: 2px solid #ebba28;
+    margin-right: 20px;
+    padding-right: 15px;
+  }
+  .informacoes {
+    display: flex;
+}
+
   .carteirinha-secao p {
     margin: 5px 0;
     font-size: 0.9em;
@@ -34,20 +47,24 @@
   }
   
   .carteirinha-secao p strong {
-    color: #333;
+    font-size: large;
+    color: #243F6D;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
-  .carteirinha .carteirinha-foto {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  .carteirinha-foto {
+    border-radius: 4px;
+    margin-top: 15px;
+    width: 190px;
+    height: 190px;
+    padding-right: 55px;
   }
   
   .carteirinha-download-button {
     display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    width: 130px;
+    padding: 8px;
+    background-color: #d8a407;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -57,6 +74,16 @@
   }
   
   .carteirinha-download-button:hover {
-    background-color: #0056b3;
+    background-color: #c59c20;
   }
   
+  .yellowBar {
+    width: 100%;
+    height: 10px;
+    background-color: #C19100;
+  }
+  
+  .header-photo {
+    width: 100%;
+    height: auto;
+  }
