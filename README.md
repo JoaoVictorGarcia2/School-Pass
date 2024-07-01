@@ -1,8 +1,8 @@
 # School-Pass
 
-[![School-Pass](https://img.shields.io/badge/School--Pass-Online-brightgreen)](https://school-pass-1b3o06fg6-joao-victor-garcias-projects.vercel.app/)
+[![School-Pass](https://img.shields.io/badge/School--Pass-Online-brightgreen)](https://school-pass.vercel.app/)
 
-Você pode acessar a aplicação online através do seguinte link: [School-Pass - Aplicação Online](https://school-pass-1b3o06fg6-joao-victor-garcias-projects.vercel.app/)
+Você pode acessar a aplicação online através do seguinte link: [School-Pass - Aplicação Online](https://school-pass.vercel.app/)
 
 ## Sobre o Projeto
 
