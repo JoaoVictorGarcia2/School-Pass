@@ -54,7 +54,7 @@ const Formulario: React.FC<FormularioProps> = ({ onSubmit }) => {
 
   const onSubmitForm: SubmitHandler<FormValues> = (formData) => {
     onSubmit(formData);
-    navigate('/carteirinhaoa');
+    navigate('/carteirinha');
   };
 
   const applyCPFFormat = (value: string) => {
