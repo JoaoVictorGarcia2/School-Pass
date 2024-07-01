@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# School-Pass
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![School-Pass](https://img.shields.io/badge/School--Pass-Online-brightgreen)](https://school-pass-1b3o06fg6-joao-victor-garcias-projects.vercel.app/)
 
-## Available Scripts
+Você pode acessar a aplicação online através do seguinte link: [School-Pass - Aplicação Online](https://school-pass-1b3o06fg6-joao-victor-garcias-projects.vercel.app/)
 
-In the project directory, you can run:
+## Sobre o Projeto
 
-### `npm start`
+School-Pass é uma aplicação web que permite aos usuários gerar carteirinhas de identificação estudantil. A aplicação foi desenvolvida utilizando React, TypeScript, react-hook-form, zod, react-router-dom, date-fns, Tailwind CSS e InputMask. Os usuários podem inserir dados pessoais e acadêmicos, visualizar a carteirinha gerada e fazer o download do PDF da carteirinha.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Formulário para inserção de dados pessoais e acadêmicos.
+- Validação de campos utilizando react-hook-form e zod.
+- Visualização da carteirinha gerada.
+- Download da carteirinha em formato PDF.
+- Estilização moderna com Tailwind CSS.
+- Navegação entre páginas com react-router-dom.
 
-### `npm test`
+## Capturas de Tela
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot](link-para-screenshot1.png)
+![Screenshot](link-para-screenshot2.png)
 
-### `npm run build`
+## Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- TypeScript
+- react-hook-form
+- zod
+- react-router-dom
+- date-fns
+- Tailwind CSS
+- InputMask
+- html2canvas
+- jsPDF
+- Modal (react-modal)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de começar, certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
-### `npm run eject`
+## Como Iniciar o Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 1. Clonar o Repositório
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/seu-usuario/school-pass.git
+cd school-pass
