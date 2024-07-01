@@ -1,51 +1,71 @@
-## Acesse a Aplicação
+Passe Escolar
 
-Você pode acessar a aplicação online através do seguinte link:
-[School-Pass - Aplicação Online](https://school-pass-1b3o06fg6-joao-victor-garcias-projects.vercel.app/)
+Você pode acessar o aplicativo online através do seguinte link: [School-Pass - Aplicação Online](https://school-pass-1b3o06fg6-joao-victor-garcias-projects.vercel.app/)
 
-# Getting Started with Create React App
+Sobre o Projeto
+School-Pass é um aplicativo web que permite aos usuários gerar carteiras de identificação estudantil. A aplicação foi desenvolvida utilizando React, TypeScript, react-hook-form, zod, react-router-dom, date-fns, Tailwind CSS e InputMask. Os usuários podem inserir dados pessoais e acadêmicos, visualizar a carteirinha gerada e fazer o download do PDF da carteirinha.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Funcionalidades
+Formulário para inserção de dados pessoais e acadêmicos.
+Validação de campos utilizando react-hook-form e zod.
+Visualização da carteirinha gerada.
+Baixe a carteirinha em formato PDF.
+Estilização moderna com Tailwind CSS.
+Navegação entre páginas com react-router-dom.
+Capturas de Tela
 
-## Available Scripts
 
-In the project directory, you can run:
+Tecnologias Utilizadas
+Reagir
+TypeScript
+forma de gancho de reação
+zod
+react-roteador-dom
+data-fns
+CSS de cauda
+Máscara de entrada
+html2canvas
+jsPDF
+Modal (reação-modal)
+Pré-requisitos
+Antes de começar, você deve ter o Node.js e o npm instalado em sua máquina.
 
-### `npm start`
+Como Iniciar o Projeto
+1. Clonar o Repositório
+festa
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Copiar código
+git clone https://github.com/seu-usuario/school-pass.git
+cd school-pass
+2. Instalar como Dependências
+festa
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Copiar código
+npm install
+3. Iniciar a Aplicação
+festa
 
-### `npm test`
+Copiar código
+npm start
+Abra http://localhost:3000 para visualizar no navegador. A página será recarregada se você fizer edições. Você também verá quaisquer erros de lint no console.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Scripts Disponíveis
+npm start
+Roda a aplicação em modo de desenvolvimento.
 
-### `npm run build`
+npm test
+Inicia o test runner no modo interativo de observação. Veja a seção sobre rodando testes para mais informações.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run build
+Cria a aplicação para produção de macarrão build. Ele agrupou corretamente o React em modo de produção e otimizou a construção para um melhor desempenho. A build é minificada e os nomes dos arquivos incluem os hashes. Sua aplicação está pronta para ser implantada!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run eject
+Nota: esta é uma operação sem retorno. Uma vez que você eject, você não pode voltar atrás! Esta operação copia todos os arquivos de configuração e dependências transitivas (webpack, Babel, ESLint, etc) para o seu projeto, dando a você controle total sobre eles. Todos os comandos, exceto eject, continuarão funcionando, mas eles serão enviados para os scripts copiados para que você possa ajustá-los.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Saiba Mais
+Você pode aprender mais sobre a documentação do Create React App .
 
-### `npm run eject`
+Para aprender React, confira a documentação do React .
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
