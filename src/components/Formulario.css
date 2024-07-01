@@ -87,7 +87,7 @@
   }
 
   .formulario-campo {
-    flex: 1 1 calc(50% - 20px); /* Ocupa metade da linha em telas maiores */
+    flex: 1 1 calc(50% - 20px); 
   }
 }
 
